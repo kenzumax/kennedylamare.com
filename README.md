@@ -1,0 +1,2 @@
+# kennedylamare.com
+my website
