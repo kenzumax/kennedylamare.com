@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kennedy Lamare</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      max-width: 720px;
+      width: 100%;
+    }
+
+    /* Logo icon */
+    .logo {
+      margin-bottom: 2rem;
+    }
+    .logo svg {
+      width: 48px;
+      height: 48px;
+      opacity: 0.85;
+    }
+
+    /* Headline */
+    h1 {
+      font-size: clamp(2.4rem, 7vw, 5rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.8rem;
+    }
+
+    /* Social links */
+    .socials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+      margin-bottom: 2.2rem;
+    }
+
+    .socials a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: #1a1a1a;
+      border: 1px solid #2e2e2e;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.45rem 1rem;
+      border-radius: 999px;
+      transition: background 0.2s;
+    }
+    .socials a:hover { background: #2a2a2a; }
+
+    .socials a svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+    /* Subtext */
+    .subtext {
+      font-size: 1.05rem;
+      color: #aaa;
+      line-height: 1.6;
+      max-width: 520px;
+      margin: 0 auto 2.2rem;
+    }
+
+    /* Email signup */
+    .signup {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+
+    .signup input {
+      background: #1a1a1a;
+      border: 1px solid #2e2e2e;
+      color: #fff;
+      font-size: 1rem;
+      padding: 0.75rem 1.2rem;
+      border-radius: 10px;
+      outline: none;
+      width: 260px;
+      transition: border-color 0.2s;
+    }
+    .signup input::placeholder { color: #555; }
+    .signup input:focus { border-color: #555; }
+
+    .signup button {
+      background: #fff;
+      color: #000;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.75rem 1.4rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .signup button:hover { opacity: 0.85; }
+
+    /* Footer */
+    footer {
+      font-size: 0.8rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Logo -->
+    <div class="logo">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 24 C8 14 14 8 24 8 C34 8 40 14 40 24" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <path d="M40 24 C40 34 34 40 24 40 C14 40 8 34 8 24" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <path d="M16 20 C16 20 20 28 24 24 C28 20 32 28 32 28" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+
+    <!-- Headline -->
+    <h1>I build cool companies<br>with cool people.</h1>
+
+    <!-- Social links -->
+    <div class="socials">
+      <a href="https://youtube.com/@kennedylamare" target="_blank" rel="noopener">
+        <!-- YouTube -->
+        <svg viewBox="0 0 24 24" fill="#FF0000"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+        @kennedylamare
+      </a>
+      <a href="https://twitter.com/kennedylamare" target="_blank" rel="noopener">
+        <!-- X/Twitter -->
+        <svg viewBox="0 0 24 24" fill="#1DA1F2"><path d="M22.46 5.98a8.7 8.7 0 0 1-2.5.68 4.36 4.36 0 0 0 1.91-2.4 8.7 8.7 0 0 1-2.76 1.05 4.35 4.35 0 0 0-7.41 3.97A12.34 12.34 0 0 1 2.64 4.8a4.35 4.35 0 0 0 1.35 5.8 4.32 4.32 0 0 1-1.97-.54v.05a4.35 4.35 0 0 0 3.49 4.26 4.37 4.37 0 0 1-1.96.07 4.35 4.35 0 0 0 4.06 3.02A8.72 8.72 0 0 1 1.64 19a12.32 12.32 0 0 0 6.68 1.96c8.01 0 12.4-6.64 12.4-12.4l-.01-.56a8.84 8.84 0 0 0 2.17-2.25l-.42.23z"/></svg>
+        @kennedylamare
+      </a>
+      <a href="https://instagram.com/kennedylamarexn" target="_blank" rel="noopener">
+        <!-- Instagram -->
+        <svg viewBox="0 0 24 24" fill="url(#ig)"><defs><linearGradient id="ig" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f09433"/><stop offset="25%" stop-color="#e6683c"/><stop offset="50%" stop-color="#dc2743"/><stop offset="75%" stop-color="#cc2366"/><stop offset="100%" stop-color="#bc1888"/></linearGradient></defs><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.3 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.3 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zm0-2.2C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1.1 8.3 0 8.7 0 12c0 3.3 0 3.7.1 4.9.2 4.4 2.6 6.8 7 7C8.3 24 8.7 24 12 24c3.3 0 3.7 0 4.9-.1 4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+        @kennedylamarexn
+      </a>
+    </div>
+
+    <!-- Subtext -->
+    <p class="subtext">
+      You're one email sign-up away from tapping into my brain. I share all my learnings through writing and videos on YouTube.
+    </p>
+
+    <!-- Email signup -->
+    <div class="signup">
+      <input type="email" placeholder="name@email.com" />
+      <button type="button">Sign up</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>© 2026 Kennedy Lamare</footer>
+
+  </div>
+</body>
+</html>
